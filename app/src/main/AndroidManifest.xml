@@ -18,16 +18,18 @@
             android:parentActivityName=".activity.MainActivity"/>
         <activity
             android:name=".LoginSignup.SignupActivity"
-            android:exported="true">
+            android:exported="false" />
+
+
+        <activity
+            android:name=".LoginSignup.LoginActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".LoginSignup.LoginActivity"
-            android:exported="false" />
         <activity
             android:name=".activity.UpdateActivity"
             android:exported="false" />
