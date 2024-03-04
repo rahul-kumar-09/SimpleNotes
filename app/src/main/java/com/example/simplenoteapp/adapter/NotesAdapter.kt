@@ -1,4 +1,4 @@
-package com.example.simplenoteapp
+package com.example.simplenoteapp.adapter
 
 import android.content.Context
 import android.content.Intent
@@ -9,6 +9,10 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
+import com.example.simplenoteapp.data.Note
+import com.example.simplenoteapp.db.NoteDatabaseHelper
+import com.example.simplenoteapp.R
+import com.example.simplenoteapp.activity.UpdateActivity
 
 class NotesAdapter(private var notes: List<Note>, context: Context) : RecyclerView.Adapter<NotesAdapter.NoteViewHolder>() {
 

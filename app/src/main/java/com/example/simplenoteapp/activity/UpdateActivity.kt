@@ -1,9 +1,11 @@
-package com.example.simplenoteapp
+package com.example.simplenoteapp.activity
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import com.example.simplenoteapp.data.Note
 import com.example.simplenoteapp.databinding.ActivityUpdateBinding
+import com.example.simplenoteapp.db.NoteDatabaseHelper
 
 class UpdateActivity : AppCompatActivity() {
     private lateinit var binding: ActivityUpdateBinding
